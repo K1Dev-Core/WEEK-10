@@ -16,13 +16,14 @@ int main() {
         printf("================================\n");
         sum += grade * credit; 
         total_credit += credit;
-        printf("Sum = %d\n", sum);
         printf("================================\n");
         i++;  
     }
-
     gpax = (float)sum / total_credit;
-    printf("GPAX = %.2f\n", gpax);
+    printf("Total Credit = %d\n", total_credit);
+    printf("Total Sum = %d\n",sum);
+    
+    printf("GPAX = %.7f\n", gpax);
 
     return 0;
 }

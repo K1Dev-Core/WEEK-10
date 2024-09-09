@@ -8,10 +8,11 @@ start
         read credit
         sum = sum + (grade * credit)
         total_credit = total_credit + credit
-        print sum
         i = i + 1
     end while
 
     gpax = sum / total_credit
+    print total_credit
+    print sum
     print gpax
 stop
